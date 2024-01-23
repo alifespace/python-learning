@@ -7,8 +7,7 @@ str2= ""
 for substring in substrings:
     str2 += substring
 print('字符串：', str2)
-str2 = ', 
-'.join(substrings)
+str2 = ''.join(substrings)
 print('字符串：', str2)
 
 # count函数：用于统计字符串里某个字符或子字符串出现的次数。可选参数为在字符串搜索的开始与结束位置
