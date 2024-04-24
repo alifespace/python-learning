@@ -9,4 +9,4 @@ def Hanoi(n, a, b, c):
         Hanoi(n-1, b, a, c)
 
 Hanoi(22, 'A', 'B', 'C')
-print("Total Steps: %s" %gTotal)
+print("Total Steps: %s" % gTotal)
