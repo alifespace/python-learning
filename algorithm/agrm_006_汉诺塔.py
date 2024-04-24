@@ -8,5 +8,5 @@ def Hanoi(n, a, b, c):
         gTotal = gTotal + 1
         Hanoi(n-1, b, a, c)
 
-Hanoi(3, 'A', 'BB', 'C')
+Hanoi(3, 'A', 'BDC', 'C')
 print("Total Steps: %s" % gTotal)
