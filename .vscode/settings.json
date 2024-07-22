@@ -1,11 +1,5 @@
 {
     "sqltools.useNodeRuntime": true,
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "driver": "DuckDB",
-            "name": "test",
-            "database": "${workspaceFolder:python-learning}/medium/test01.ddb"
-        }
-    ]
+    "sqltools.connections": [],
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
