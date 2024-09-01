@@ -7,6 +7,6 @@ def func1(f):
     f()
 
 def func2():
-    print('123')
+    print('1234')
 
 func1(func2)
