@@ -1,17 +1,14 @@
-def binary_search(data, value):
-    left = 0
-    right = len(data) - 1
-    while left <= right:
-        mid = (left + right) // 2
-        if data[mid] == value:
-            return mid
-        elif value > data[mid]:
-            left = mid + 1
-        else:
-            right = mid - 1
-        
-    return None
-        
+from openai import OpenAI
 
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(binary_search(data, 5)) 
+client = OpenAI(api_key="sk-94c3efc401af4b87be01a4ecce532bcc", base_url="https://api.deepseek.com")
+
+response = client.chat.completions.create(
+    model="deepseek-chat",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant"},
+        {"role": "user", "content": "如何做炸酱面"},
+    ],
+    stream=False
+)
+
+print(response.choices[0].message.content)
