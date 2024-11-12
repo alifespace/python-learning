@@ -1,0 +1,2 @@
+# 忽略指定的虚拟环境目录
+/prjcenter/python-learning/medium/flask/venv/
