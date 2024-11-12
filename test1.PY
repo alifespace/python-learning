@@ -1,6 +1,10 @@
-print("hello python")
+from flask import Flask
 
-var1 = 30
-var2 = 45
+app = Flask(__name__)
 
-print(var1+var2)
+@app.route('/')
+def index():
+    return('Hello, World!')
+
+if __name__ == '__main__':
+    app.run(debug=True)
