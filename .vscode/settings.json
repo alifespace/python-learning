@@ -1,6 +1,0 @@
-{
-    "sqltools.useNodeRuntime": true,
-    "sqltools.connections": [],
-    "CodeGPT.apiKey": "CodeGPT Plus Beta",
-    "python.defaultInterpreterPath": "python"
-}
