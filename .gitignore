@@ -1,3 +1,7 @@
 # 忽略指定的虚拟环境目录
 medium/flask/venv/
 .venv/
+.vscode/
+.env
+requirements.txt
+.gitignore
