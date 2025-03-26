@@ -6,6 +6,7 @@ from pathlib import Path
 script_dir = Path(__file__).resolve().parent
 ict_path = script_dir / 'data' / 'ict_202502.xlsx'
 br_path = script_dir / 'data' / 'br_202502.xlsx'
+print(os.getcwd())
 
 # 读取第 I 列（第 9 列）
 df_ict = pd.read_excel(ict_path, usecols="I")
