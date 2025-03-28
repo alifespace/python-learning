@@ -1,3 +1,0 @@
-ello python world
-1. hello python world
-2. hello python world
